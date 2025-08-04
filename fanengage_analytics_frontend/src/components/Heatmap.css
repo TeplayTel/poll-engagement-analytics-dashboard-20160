@@ -1,0 +1,27 @@
+.heatmap-card {
+  background: var(--bg-secondary, #f8f9fa);
+  border-radius: 11px;
+  padding: 18px;
+  box-shadow: 0 1px 5px 0 rgba(30,40,55,0.06);
+  min-width: 200px;
+  margin-bottom: 18px;
+}
+.heatmap-title {
+  font-weight: 600;
+  color: var(--primary, #004AAD);
+  margin-bottom: 11px;
+}
+.heatmap-demo {
+  display: grid;
+  grid-template-columns: repeat(7, 22px);
+  grid-gap: 6px;
+  margin-top: 5px;
+}
+.heatmap-cell {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #eaeaea;
+  border-radius: 4px;
+  transition: background 0.12s;
+}

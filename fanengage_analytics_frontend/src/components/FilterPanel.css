@@ -1,0 +1,45 @@
+.filter-panel {
+  display: flex;
+  gap: 18px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.filter-panel label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.98em;
+  color: var(--text-primary, #333);
+  gap: 3px;
+}
+.filter-panel input,
+.filter-panel select {
+  padding: 7px 11px;
+  border: 1px solid var(--border-color, #e9ecef);
+  border-radius: 6px;
+  font-size: 1em;
+  background: var(--bg-secondary, #f8f9fa);
+  color: var(--text-primary, #282c34);
+}
+.btn-filter {
+  background: var(--accent, #FFB200);
+  color: #fff;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1em;
+  transition: background 0.15s;
+}
+.btn-filter:hover {
+  background: #e09630;
+}
+@media (max-width: 800px) {
+  .filter-panel {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

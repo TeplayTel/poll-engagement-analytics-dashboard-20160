@@ -1,0 +1,24 @@
+.chart-box {
+  background: var(--bg-secondary, #f8f9fa);
+  padding: 20px 17px;
+  border-radius: 13px;
+  box-shadow: 0 1px 4px 0 rgba(30,40,55,0.08);
+  margin-bottom: 20px;
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  min-width: 210px;
+}
+.chart-title {
+  font-weight: 600;
+  font-size: 1.03em;
+  margin-bottom: 11px;
+  color: var(--primary, #004AAD);
+}
+.chart-render {
+  flex: 1 1;
+  min-height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
