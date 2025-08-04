@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/poll-engagement-analytics-dashboard-20160/fanengage_analytics_frontend"
+}
